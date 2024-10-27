@@ -1,0 +1,28 @@
+.alic {
+  border-radius: 0 0 25px 25px;
+}
+.alic ol {
+  list-style: auto;
+  padding: revert !important;
+}
+.alic ul {
+  list-style: initial;
+  padding: revert !important;
+}
+
+/* .alic:focus .jodit-container {
+  border-color: red;
+} */
+
+.jodit-container {
+  border-radius: 25px !important;
+}
+.jodit-toolbar__box {
+  border-radius: 25px 25px 0 0 !important;
+}
+.jodit-editor__resize svg {
+  display: none;
+}
+.jodit-add-new-line {
+  display: none;
+}
